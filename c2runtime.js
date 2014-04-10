@@ -18277,6 +18277,20 @@ cr.getProjectModel = function() { return [
 		[
 		[
 			1,
+			"screenshotX",
+			0,
+			0,
+false,false,6414210532143299
+		]
+,		[
+			1,
+			"screenshotY",
+			0,
+			0,
+false,false,150852913167244
+		]
+,		[
+			1,
 			"SpawnRowCounter",
 			0,
 			0,
@@ -19611,104 +19625,6 @@ false,false,1047137592816759
 					],
 					[
 					[
-						100,
-						cr.plugins_.Sprite.prototype.acts.SetInstanceVar,
-						null,
-						5107008789341727
-						,[
-						[
-							10,
-							0
-						]
-,						[
-							7,
-							[
-								19,
-								cr.system_object.prototype.exps.angle
-								,[
-[
-									20,
-									87,
-									cr.plugins_.Mouse.prototype.exps.X,
-									false,
-									null
-								]
-,[
-									20,
-									87,
-									cr.plugins_.Mouse.prototype.exps.Y,
-									false,
-									null
-								]
-,[
-									20,
-									100,
-									cr.plugins_.Sprite.prototype.exps.X,
-									false,
-									null
-								]
-,[
-									20,
-									100,
-									cr.plugins_.Sprite.prototype.exps.Y,
-									false,
-									null
-								]
-								]
-							]
-						]
-						]
-					]
-,					[
-						100,
-						cr.plugins_.Sprite.prototype.acts.SetInstanceVar,
-						null,
-						5584184364807589
-						,[
-						[
-							10,
-							1
-						]
-,						[
-							7,
-							[
-								19,
-								cr.system_object.prototype.exps.distance
-								,[
-[
-									20,
-									100,
-									cr.plugins_.Sprite.prototype.exps.X,
-									false,
-									null
-								]
-,[
-									20,
-									100,
-									cr.plugins_.Sprite.prototype.exps.Y,
-									false,
-									null
-								]
-,[
-									20,
-									87,
-									cr.plugins_.Mouse.prototype.exps.X,
-									false,
-									null
-								]
-,[
-									20,
-									87,
-									cr.plugins_.Mouse.prototype.exps.Y,
-									false,
-									null
-								]
-								]
-							]
-						]
-						]
-					]
-,					[
 						100,
 						cr.plugins_.Sprite.prototype.acts.RotateClockwise,
 						null,
@@ -39273,6 +39189,92 @@ false,false,1047137592816759
 				[
 				[
 					-1,
+					cr.system_object.prototype.acts.SetVar,
+					null,
+					5610309021692331
+					,[
+					[
+						11,
+						"screenshotX"
+					]
+,					[
+						7,
+						[
+							19,
+							cr.system_object.prototype.exps.viewportleft
+							,[
+[
+								0,
+								2
+							]
+							]
+						]
+					]
+					]
+				]
+,				[
+					-1,
+					cr.system_object.prototype.acts.SetVar,
+					null,
+					6697518202079161
+					,[
+					[
+						11,
+						"screenshotY"
+					]
+,					[
+						7,
+						[
+							19,
+							cr.system_object.prototype.exps.viewporttop
+							,[
+[
+								0,
+								2
+							]
+							]
+						]
+					]
+					]
+				]
+,				[
+					-1,
+					cr.system_object.prototype.acts.Scroll,
+					null,
+					3610248151545317
+					,[
+					[
+						0,
+						[
+							7,
+							[
+								19,
+								cr.system_object.prototype.exps.layoutwidth
+							]
+							,[
+								0,
+								2
+							]
+						]
+					]
+,					[
+						0,
+						[
+							7,
+							[
+								19,
+								cr.system_object.prototype.exps.layoutheight
+							]
+							,[
+								0,
+								2
+							]
+						]
+					]
+					]
+				]
+,				[
+					-1,
 					cr.system_object.prototype.acts.SetCanvasSize,
 					null,
 					5235382691741054
@@ -39593,7 +39595,7 @@ false,false,1047137592816759
 							7,
 							[
 								0,
-								4
+								8
 							]
 						]
 						]
@@ -39740,6 +39742,80 @@ false,false,1047137592816759
 						-1,
 						cr.system_object.prototype.acts.SetVar,
 						null,
+						4050130729712406
+						,[
+						[
+							11,
+							"screenshotX"
+						]
+,						[
+							7,
+							[
+								0,
+								0
+							]
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.SetVar,
+						null,
+						1157900882471456
+						,[
+						[
+							11,
+							"screenshotY"
+						]
+,						[
+							7,
+							[
+								0,
+								0
+							]
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Scroll,
+						null,
+						6697201201796372
+						,[
+						[
+							0,
+							[
+								7,
+								[
+									19,
+									cr.system_object.prototype.exps.layoutwidth
+								]
+								,[
+									0,
+									2
+								]
+							]
+						]
+,						[
+							0,
+							[
+								7,
+								[
+									19,
+									cr.system_object.prototype.exps.layoutheight
+								]
+								,[
+									0,
+									2
+								]
+							]
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.SetVar,
+						null,
 						5778336689530903
 						,[
 						[
@@ -39847,7 +39923,7 @@ false,false,1047137592816759
 	false,
 	3,
 	false,
-	95,
+	94,
 	false,
 	[
 		[7,8,9,10]
